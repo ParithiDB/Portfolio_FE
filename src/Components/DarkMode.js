@@ -6,7 +6,7 @@ import "./DarkMode.css";
 const DarkMode = () => {
 
 
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState( localStorage.getItem("darkMode") === "false" ? false : true);
 
     useEffect(() => {
         // Apply the theme based on the state
@@ -16,6 +16,7 @@ const DarkMode = () => {
         } else {
           root.setAttribute("data-theme", "light");
         }
+        localStorage.setItem("darkMode", isDarkMode);
       }, [isDarkMode]);
     
       const toggleTheme = () => {
