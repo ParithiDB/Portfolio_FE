@@ -7,17 +7,9 @@ import resumePDF from "../../Resume.pdf";
 function AboutMe(props) {
 
     const handleDownloadResume = () => {
-        // Create a blob with your resume content
-           // Create a new anchor element
     const a = document.createElement('a');
-    
-    // Set the href attribute to the path of the PDF file
     a.href = resumePDF;
-
-    // Set the download attribute to specify the default file name
     a.download = 'Parithi_Resume.pdf';
-
-    // Programmatically click the anchor element to trigger the download
     a.click();
   };
 
