@@ -20,7 +20,7 @@ function Navbar(props) {
       </Link>
       <ul class="nav nav-pills justify-content-end">
   <li class="nav-item">
-    <Link to='/home'  className={`nav-link ${focusedLink === 'home' ? 'focused' : ''}`}
+    <Link to='/'  className={`nav-link ${focusedLink === 'home' ? 'focused' : ''}`}
           onClick={() => handleLinkFocus('home')} activeClassName="active" aria-current="page">Home</Link>
   </li>
   <li class="nav-item">
