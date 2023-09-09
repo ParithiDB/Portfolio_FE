@@ -15,7 +15,7 @@ function Navbar(props) {
       <div className="top">
         <nav className="navbar">
   <div className="container-fluid">
-  <Link to='/home' className={`navbar-brand ${focusedLink === 'home' ? 'focused' : ''} mt-2`} onClick={() => handleLinkFocus('home')}>
+  <Link to='/' className={`navbar-brand ${focusedLink === 'home' ? 'focused' : ''} mt-2`} onClick={() => handleLinkFocus('home')}>
       <h4>Portfolio</h4>
       </Link>
       <ul class="nav nav-pills justify-content-end">
