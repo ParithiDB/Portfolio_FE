@@ -1,0 +1,72 @@
+.about {
+    padding: 40px 100px;
+}
+
+.profile {
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 2px solid whitesmoke;
+    border-radius: 32px 64px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+}
+
+.pro-image {
+    border-radius: 16px;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.profile-info {
+    clear: both; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-linkss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.aboutme {
+    border: 2px solid whitesmoke;
+    box-sizing: border-box;
+    border-radius: 32px 64px;
+    height: fit-content;
+    padding: 10px;
+}
+
+b {
+    color: rgb(81, 243, 108);
+    font-size: 15px;
+}
+
+span {
+    color: rgb(81, 243, 108);
+    font-weight: bolder;
+}
+
+.name-color {
+    color: rgb(255, 201, 99);
+}
+
+h5 {
+    color: rgb(255, 201, 99);
+}
+
+.fsd {
+    color: rgb(250, 92, 92);
+    font-size: large;
+}
+
+p, h1 {
+    color: rgb(140, 140, 216)
+}

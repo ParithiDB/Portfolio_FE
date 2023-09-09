@@ -1,0 +1,34 @@
+.navbar-brand:hover {
+    color: rgb(31, 185, 57);
+}
+
+.navbar-brand::after {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-size: large;
+}
+.nav-link:focus, .nav-link.focused {
+    color: white;
+    background-color: rgb(31, 185, 57);
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: rgb(31, 185, 57);
+}
+.nav-link:visited {
+    
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar-brand, .navbar-brand::after {
+    color: white;
+}
+
+.navbar {
+    background: radial-gradient(circle, #000c7a, #000038);
+}

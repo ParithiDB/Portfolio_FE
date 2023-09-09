@@ -1,0 +1,21 @@
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    padding: 10px;
+}
+
+.vertical-lineee {
+    border-top: 1px solid #ccc; /* Add a horizontal line with a 1px solid gray border */
+    padding-top: 20px;
+}
+
+.icons-tech {
+    > .row {
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}

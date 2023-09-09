@@ -1,0 +1,43 @@
+:root {
+  --body_background-light: white;
+  --body_color-light: black;
+  --link_color-light: navy;
+  --body_background-dark: #282c34;
+  --body_color-dark: white;
+  --link_color-dark: cyan;
+}
+
+[dark-theme='light'] {
+  --body_background: var(--body_background-light);
+  --body_color: var(--body_color-light);
+  --link_color: var(--link_color-light);
+  h1, p {
+    color: black; /* Override any color styles applied in your project */
+  }
+
+}
+
+[data-theme="dark"] {
+  --body_background: var(--body_background-dark);
+  --body_color: var(--body_color-dark);
+  --link_color: var(--link_color-dark);
+}
+
+body {
+  margin: 0;
+  background-image: var(--body_background);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

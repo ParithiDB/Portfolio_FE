@@ -1,0 +1,32 @@
+.project {
+  > .container {
+    margin-top: 50px;
+    height: auto;
+}
+}
+
+
+
+img {
+   max-height: 200px;
+   min-height: 200px;
+}
+.project {
+  > .container {
+    > .row {
+      > .col {
+        > .card {
+          max-width: 546px;
+          min-width: 546px;
+          max-height: 392px;
+          min-height: 392px;
+        }
+      }
+    }
+  }
+}
+
+
+.card-title {
+    color: rgb(7, 110, 41);
+}
