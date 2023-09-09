@@ -3,6 +3,9 @@
     border-left: 1px solid #ccc; /* Add a vertical line with a 1px solid gray border */
     padding-left: 20px; /* Add some left padding for spacing */
     padding-right: 20px;
+    > h4 {
+      color: rgb(140, 140, 216)
+    }
 }
 
 
@@ -27,4 +30,8 @@
     flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        > h4 {
+          color: rgb(140, 140, 216)
+        }
 }

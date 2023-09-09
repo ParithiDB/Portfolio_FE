@@ -15,12 +15,12 @@ function Navbar(props) {
       <div className="top">
         <nav className="navbar">
   <div className="container-fluid">
-  <Link to='/home' className={`navbar-brand ${focusedLink === 'home' ? 'focused' : ''} mt-2`} onClick={() => handleLinkFocus('home')}>
+  <Link to='/' className={`navbar-brand ${focusedLink === 'home' ? 'focused' : ''} mt-2`} onClick={() => handleLinkFocus('home')}>
       <h4>Portfolio</h4>
       </Link>
       <ul class="nav nav-pills justify-content-end">
   <li class="nav-item">
-    <Link to='/home'  className={`nav-link ${focusedLink === 'home' ? 'focused' : ''}`}
+    <Link to='/'  className={`nav-link ${focusedLink === 'home' ? 'focused' : ''}`}
           onClick={() => handleLinkFocus('home')} activeClassName="active" aria-current="page">Home</Link>
   </li>
   <li class="nav-item">
