@@ -12,7 +12,7 @@
   --body_color: var(--body_color-light);
   --link_color: var(--link_color-light);
   h1, p {
-    color: black; /* Override any color styles applied in your project */
+    color: black; 
   }
 
 }
