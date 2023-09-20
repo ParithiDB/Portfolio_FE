@@ -48,6 +48,24 @@ function Contact(props) {
     }
   };
 
+  
+    const [copied, setCopied] = useState(false);
+    const emailText = 'parik101198@gmail.com';
+  
+    const copyToClipboard = () => {
+      const tempInput = document.createElement('input');
+      tempInput.value = emailText;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempInput);
+      setCopied(true);
+      setTimeout(() => {
+        setCopied(false);
+      }, 5000);
+    };
+
+
   return (
     <div className='contact p-5'>
       <h1 className='text-center mb-4'>Contact Me</h1>
@@ -134,15 +152,10 @@ function Contact(props) {
 
          <div class='email'>
             <h3 className='mail-title'>Email Id</h3>
-            <h5>parik101198@gmail.com
-            <button class='btn btn-info ms-2'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
-  <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
-  <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
-</svg></button>
+            <h5>{emailText}
+            <button class='btn btn-info ms-2' onClick={copyToClipboard} disabled={copied}>{copied ? 'Copied!' : 'Copy to Clipboard'}</button>
             </h5>
-            
          </div>
-
         </div>
         </div>
         </div>
