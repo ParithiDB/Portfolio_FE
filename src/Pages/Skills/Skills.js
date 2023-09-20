@@ -42,7 +42,7 @@ I love solving problems whether programming problems or real life problems.</p>
                 </div>
             </div>
             <div className='vertical-lineee'>
-            <h2 class='text-center'>TECH I'M FAMILIAR WITH</h2>
+            <h2 class='text-center techim'>TECH I'M FAMILIAR WITH</h2>
                 <div class='icons-tech'>
                 <div class='row w-100'>
                     <div class='col-12 col-md-3'>
@@ -91,6 +91,19 @@ I love solving problems whether programming problems or real life problems.</p>
                     </div>
                 </div>
             </div>
+            <div className='icons-git row p-1' align="center" dir="auto"> 
+            <div className='icon-container col-12 col-md-12'>
+             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="80" height="80" style={{maxWidth: '100%'}} />
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="80" height="80" style={{maxWidth: '100%'}} />
+               
+               <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="80" height="80" style={{maxWidth: '100%'}}/>
+                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="80" height="80" style={{maxWidth: '100%'}} /> 
+                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="80" height="80" style={{maxWidth: '100%'}} /> 
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="80" height="80" style={{maxWidth: '100%'}} /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="80" height="80" style={{maxWidth: '100%'}} /><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="80" height="80" style={{maxWidth: '100%'}} />
+                    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="100" height="40" style={{maxWidth: '100%', maxHeight: '100%'}} />
+                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="80" height="80" style={{maxWidth: '100%'}} />
+                       </div>
+                       </div>
             </div>
     );
 }

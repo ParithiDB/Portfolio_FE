@@ -19,3 +19,13 @@
         margin-top: 20px;
     }
 }
+
+.icon-container {
+    > img {
+        gap: 5px;
+    }
+}
+
+.techim {
+    color: rgb(161, 86, 231);
+}
