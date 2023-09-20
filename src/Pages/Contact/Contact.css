@@ -1,7 +1,7 @@
 
 .vertical-line {
-    border-left: 1px solid #ccc; /* Add a vertical line with a 1px solid gray border */
-    padding-left: 20px; /* Add some left padding for spacing */
+    border-left: 1px solid #ccc; 
+    padding-left: 20px; 
     padding-right: 20px;
     > h4 {
       color: rgb(140, 140, 216)
@@ -11,8 +11,8 @@
 
   @media (max-width: 768px) {
     .vertical-line {
-      border-left: none; /* Remove the vertical line */
-      border-top: 1px solid #ccc; /* Add a horizontal line with a 1px solid gray border */
+      border-left: none;
+      border-top: 1px solid #ccc; 
       padding-top: 20px;
     }
 }

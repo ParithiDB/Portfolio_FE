@@ -9,7 +9,6 @@ const DarkMode = () => {
     const [isDarkMode, setIsDarkMode] = useState( localStorage.getItem("darkMode") === "false" ? false : true);
 
     useEffect(() => {
-        // Apply the theme based on the state
         const root = document.documentElement;
         if (isDarkMode) {
           root.setAttribute("data-theme", "dark");
@@ -26,11 +25,11 @@ const DarkMode = () => {
       const getCustomStyles = () => {
         if (isDarkMode) {
           return {
-            color: "white", // Dark mode styles for h1 and p
+            color: "white", 
           };
         } else {
           return {
-            color: "black", // Light mode styles for h1 and p
+            color: "black", 
           };
         }
       };
