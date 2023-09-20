@@ -8,6 +8,9 @@
     }
 }
 
+.mail-title {
+  color: rgb(51, 120, 177);
+}
 
   @media (max-width: 768px) {
     .vertical-line {
