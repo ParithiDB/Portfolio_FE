@@ -6,6 +6,11 @@
     color: white;
 }
 
+.name-logo {
+    font-family: 'Cairo Play', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
 .nav-link {
     color: white;
     font-size: large;

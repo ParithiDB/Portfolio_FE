@@ -70,3 +70,40 @@ h5 {
 p, h1 {
     color: rgb(140, 140, 216)
 }
+
+
+/* Add these styles for mobile devices */
+@media screen and (max-width: 768px) {
+    .about {
+      padding: 20px; /* Adjust padding for mobile */
+    }
+  
+    .profile {
+      text-align: center; /* Center profile content */
+    }
+  
+    .pro-image {
+      margin: 0 auto; /* Center the profile image */
+    }
+  
+    .profile-info {
+      text-align: center; /* Center profile info */
+    }
+  
+    .social-linkss {
+      text-align: center; /* Center social links */
+    }
+  
+    .aboutme {
+      padding: 10px 10px; /* Adjust padding for mobile */
+      border-radius: 20px; /* Adjust border radius as needed */
+    }
+    
+    /* Add ellipsis for larger text */
+    .aboutme p {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  
