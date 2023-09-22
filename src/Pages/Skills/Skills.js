@@ -91,8 +91,8 @@ I love solving problems whether programming problems or real life problems.</p>
                     </div>
                 </div>
             </div>
-            <div className='icons-git row p-1' align="center" dir="auto"> 
-            <div className='icon-container col-12 col-md-12'>
+            
+            <div className='icon-container col-12 col-md-12 mb-2' align='center'>
              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="80" height="80" style={{maxWidth: '100%'}} />
               <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="80" height="80" style={{maxWidth: '100%'}} />
                
@@ -103,7 +103,7 @@ I love solving problems whether programming problems or real life problems.</p>
                     <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="100" height="40" style={{maxWidth: '100%', maxHeight: '100%'}} />
                      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="80" height="80" style={{maxWidth: '100%'}} />
                        </div>
-                       </div>
+            
             </div>
     );
 }
